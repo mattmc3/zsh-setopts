@@ -188,3 +188,15 @@ warnnestedvar         off
 xtrace                off
 zle                   on
 ```
+
+## Installation
+
+- [znap]: `znap clone mattmc3/zsh-setopts && znap source zsh-setopts`
+- [antibody]: `antibody bundle mattmc3/zsh-setopts`
+- [zgen]: `zgen load mattmc3/zsh-setopts`
+- [antigen]: `antigen bundle mattmc3/zsh-setopts`
+
+[antigen]: https://github.com/zsh-users/antigen
+[antibody]: https://getantibody.github.io
+[znap]: https://github.com/marlonrichert/zsh-snap
+[zgen]: https://github.com/tarjoilija/zgen
