@@ -1,6 +1,6 @@
-# setopts
+# zsh-setopts
 
-A good set of base ZSH options
+Enable all the great ZSH options because ZSH defaults are meh.
 
 ## Options
 
