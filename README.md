@@ -1,6 +1,9 @@
 # zsh-setopts
 
-Enable all the great ZSH options because ZSH defaults are meh.
+**ARCHIVAL NOTICE:**
+_This functionality has been integrated to [mattmc3/ez](https://github.com/mattmc3/ez), which is corrects all the poor ZSH defaults. not just setopts. Use that instead._
+
+> Enable all the great ZSH options because ZSH defaults are meh.
 
 ## Options
 
