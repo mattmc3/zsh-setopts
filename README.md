@@ -1,9 +1,26 @@
 # zsh-setopts
 
-**ARCHIVAL NOTICE:**
-_This functionality has been integrated to [mattmc3/ez](https://github.com/mattmc3/ez), which is corrects all the poor ZSH defaults. not just setopts. Use that instead._
+> Enable great ZSH options because ZSH defaults are meh.
 
-> Enable all the great ZSH options because ZSH defaults are meh.
+## Customizing
+
+If you don't like the options set for you in this plugin, you can always set whatever you like for yourself after loading this plugin.
+This plugin is intended to give you a much better starting place than ZSH starts you from.
+So, you may load this plugin and then choose to change a small handful of settings rather than having to change nearly all of them.
+For more extensive customization, you might consider forking this plugin.
+
+## Usage
+
+In your .zshrc, source this plugin and then set your own options:
+
+```zsh
+# example using PZ as your plugin manager
+pz source mattmc3/zsh-setopts
+
+# set any other options, or change ones you don't like
+setopt vi
+setopt no_glob_dots
+```
 
 ## Options
 
@@ -194,12 +211,14 @@ zle                   on
 
 ## Installation
 
-- [znap]: `znap clone mattmc3/zsh-setopts && znap source zsh-setopts`
+- [pz]: `pz source mattmc3/zsh-setopts`
+- [znap]: `znap source mattmc3/zsh-setopts`
 - [antibody]: `antibody bundle mattmc3/zsh-setopts`
 - [zgen]: `zgen load mattmc3/zsh-setopts`
 - [antigen]: `antigen bundle mattmc3/zsh-setopts`
 
 [antigen]: https://github.com/zsh-users/antigen
 [antibody]: https://getantibody.github.io
+[pz]: https://github.com/mattmc3/pz
 [znap]: https://github.com/marlonrichert/zsh-snap
 [zgen]: https://github.com/tarjoilija/zgen
