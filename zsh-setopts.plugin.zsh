@@ -66,3 +66,4 @@ setopt prompt_subst           # expand parameters in prompt variables
 # http://zsh.sourceforge.net/Doc/Release/Options.html#Zle
 setopt no_beep                # be quiet!
 setopt combining_chars        # combine zero-length punctuation characters (accents) with the base character
+setopt emacs                  # use emacs keybindings in the shell
