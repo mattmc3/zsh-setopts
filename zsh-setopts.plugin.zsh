@@ -14,6 +14,7 @@ setopt always_to_end           # move cursor to the end of a completed word
 setopt auto_list               # automatically list choices on ambiguous completion
 setopt auto_menu               # show completion menu on a successive tab press
 setopt auto_param_slash        # if completed parameter is a directory, add a trailing slash
+setopt complete_aliases        # if using an alias, use the completion for the underlying command
 setopt complete_in_word        # complete from both ends of a word
 setopt no_menu_complete        # don't autoselect the first completion entry
 
